@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+html {
+    background: url("bg.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.wrapper{
+    position: relative;
+    
+}
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 72px;
+    color: #333533;
+}
+.plan-input{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    outline: none;
+}
+
+.plan-area{
+    width: 90%;
+    height: 500px;
+    margin: 20px;
+    background: url('leaf.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 2%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.btn{
+    margin-left: 20px;
+    width: 50px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 1%;
+}
+h4{
+    font-size: 32px;
+    text-align: center;
+    border-bottom: 0.7px solid grey;
+}
+.task{
+    margin-left: 25px;
+    font-size: 22px;
+    color: #f0f3bd;
+}

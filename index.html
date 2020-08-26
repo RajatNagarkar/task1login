@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Dev Login</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="title">Login</div>
+		<p class="feedback"></p>
+		<form action="" method="POST">
+			<div class="inp-field name-field">
+			</div>
+			<div class="inp-field field">
+				<input name="username" type="text" required />
+				<label for="username" class="input-label">Username</label>
+			</div>
+			<div class="inp-field pass-field field">
+				<input name="pass" type="password" required />
+				<label for="password" class="input-label">Password</label>
+			</div>
+			<div class="inp-field conf-pass-field"></div>
+			<div class="field">
+				<input class="submit" id="submit-login" type="submit" value="Login" />
+			</div>
+			<div class="signup-link sign-up">Not a Member? <a id="sign-up">Signup Here</a></div>
+			<div class="signup-link log-in" style="display:none">Already a Member? <a id="log-in">Login Here</a></div>
+		</form>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
